@@ -1,15 +1,12 @@
 import './App.css';
-import HomePage from "./Home";
+import Home from "./Home";
+
 function App() {
   return (
     <div>
       Hello React
-      <HomePage firstName="jacob" lastName={"inggi"}/>
-      <HomePage firstName="qwqe" lastName={"inggi"}/>
-      <HomePage firstName="dfdg" lastName={"inggi"}/>
-      <HomePage firstName="gsdtsg" lastName={"inggi"}/>
+      <Home fName="Jacob" />
     </div>
   );
 }
-
 export default App;

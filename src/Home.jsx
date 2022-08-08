@@ -1,10 +1,13 @@
+import EmployeeTable from "./Employee-Table.compnent";
+import Employees from "./Employees.component";
 function Home(props) {
-    console.log(props);
-    return (
-    <h1>
-        <p>
-        </p>
-    </h1>
-    )
+  return (
+    <div>
+      <h5> {props.fName}</h5>
+      <EmployeeTable/>
+      {/* <Employees/> */}
+    </div>
+  );
 }
+
 export default Home;
